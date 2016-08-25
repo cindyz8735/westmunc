@@ -568,7 +568,6 @@
 	font-weight: 200;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6px;
 	left: 150px;
 }
 
@@ -673,7 +672,6 @@
 	font-weight: 200;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6px;
 	left: 150px;
 	padding-bottom: 20px;
 }
@@ -780,8 +778,13 @@
 	font-weight: 200;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6px;
 	left: 150px;
+	margin-top:-5px;
+}
+
+#u392-2
+{
+	margin-top: 6px;
 }
 
 #u340-2,#u348-2,#u354-2,#u360-2,#u366-2,#u396-2,#u373-2,#u378-2,#u409-2,#u385-2,#u392-2
@@ -795,8 +798,3 @@
 {
 	clear: both;
 }
-
-/*.clearfix .colelem{
-	padding-top:10px;
-}*/
-
