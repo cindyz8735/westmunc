@@ -4,14 +4,43 @@
   background-size: cover !important;
 }
 
+.background{
+  font-size:12px !important;
+}
+
 #page
 {
   z-index: 1;
-  width: 800px;
-  min-height: 290px;
-  padding-bottom: 210px;
+  width: 450px;
+  min-height: 400px;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px 150px 50px 200px;
+}
+
+#pu305-23
+{
+  width: 0.01px;
+  position: relative;
+  padding:10px 0px;
+}
+
+#u311-6
+{
+  z-index: 96;
+  width: 500px;
+/*  min-height: 100px;
+*/  line-height: 15px;
+  text-align: left;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+  position: relative;
+  margin-right: -10000px;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:10px;
 }
 
 #menuu243
@@ -172,36 +201,89 @@
   margin: 0px -10000px 0px 0px;
 }
 
-#u333-6
+#u314-6
 {
-  z-index: 33;
-  width: 450px;
-  min-height: 80px;
-  background-color: rgba(0, 0, 0, 0.5);
-  line-height: 22px;
-  text-align: center;
-  font-size: 18px;
+  z-index: 102;
+  width: 500px;
+/*  min-height: 188px;
+*/  line-height: 15px;
+  text-align: left;
+  font-size: 13px;
   color: #FFFFFF;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: raleway, sans-serif;
+  font-weight: 300;
   position: relative;
   margin-right: -10000px;
-  margin-top: 80px;
-  left: 270px;
-  padding-left:20px;
-  padding-top:30px;
-  padding-bottom:20px;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:10px;
 }
 
-#u333-2
+#pu315-20,#pu331-20
 {
-  padding-top: 30px;
+  width: 0.01px;
+  margin-top: 12px;
+  position: relative;
+  padding:10px 0px;
 }
 
-#late
+#u305-2,#u315-2,#u331-2
 {
-  font-size:14px;
-  font-weight:300;
+  font-size: 18px;
+  line-height: 22px;
+  padding-right: 5px;
+  font-family: raleway, sans-serif;
+  font-weight: 500;
+}
+
+#u305-4,#u315-4,#u331-4
+{
+  font-size: 18px;
+  line-height: 22px;
+  padding-right: 5px;
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+}
+
+#u305-7,#u305-10,#u305-13,#u305-16,#u305-17,#u305-19,#u305-20,#u315-7,#u315-10,#u315-13,#u315-14,#u315-16,#u315-17,#u331-7,#u331-10,#u331-13,#u331-14,#u331-16,#u331-17
+{
+  font-size: 11px;
+  line-height: 13px;
+  padding-right: 5px;
+  font-family: raleway, sans-serif;
+  font-weight: 200;
+}
+
+#u305-21,#u315-18,#u331-18
+{
+  font-size: 11px;
+  line-height: 13px;
+  font-family: raleway, sans-serif;
+  font-weight: 200;
+}
+
+#u330-6
+{
+  z-index: 108;
+  width: 500px;
+/*  min-height: 100px;
+*/  line-height: 15px;
+  text-align: left;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+  position: relative;
+  margin-right: -10000px;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:10px;
+}
+
+#u311-2,#u311-4,#u314-2,#u314-4,#u330-2,#u330-4
+{
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 #page .verticalspacer
@@ -209,64 +291,33 @@
   clear: both;
 }
 
-.button
-{
-  font-size: 18px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: white;
-  background-color: black;
-  padding: 10px;
-  position: center;
-  border-radius: 0px;
-  border: 1px solid #fefefe;
+.question {
+  line-height: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
-.button:hover
-{
-  color:#6ebbff;
-  font-weight:500;
+.answer {
+  line-height: 18px;
+  text-align: left;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
-#schedule .date {
-  width: 600px;
-  margin: auto;
-}
-
-#schedule td a {
-  color: white;
-}
-
-#schedule a:hover {
-  color: #7976b7;
-}
-
-.table {
-  border-collapse: separate;
-  border-spacing: 0 1em;
-  margin-bottom: 0px;
+.emphasis {
+  font-style: italic;
 }
 
 .table-borderless tbody tr td {
   border: none;
-  font-size: 16px;
   font-weight: 300;
   text-align: left;
-  padding: 0px 30px;
-  font-size:16px;
-}
-
-#u333-2 {
-  font-weight:300;
-  font-style:italic;
+  padding: 0px 40px;
   font-size:14px;
-  margin-top:-20px;
-  text-align:left;
-  margin-left:25px;
-}
-
-#address {
-  padding-top:10px;
-  font-weight:300;
-  font-size:16px;
+  line-height: 20px;
 }
