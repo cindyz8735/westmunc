@@ -1,7 +1,7 @@
 var listImg = "";
 
 for (var i = 1; i < 48; i++) {
-    listImg += "<img class='slides' src='images/westmunc2016/IMG_" + i + ".jpg'>\n";
+    listImg += "<img class='slides' src='images/westmunc2016/IMG_" + i + ".jpg' style='display:block;'>\n";
 }
 
 document.getElementById("replaceHere").innerHTML = listImg;
